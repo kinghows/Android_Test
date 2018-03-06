@@ -1,0 +1,13 @@
+#安卓测试命令范例
+#输入文本123456
+input text 123456
+#使用keycode num输入，keycode表可百度查询
+input keyevent 7
+#使用keycode name输入1
+input keyevent KEYCODE_1
+#使用keycode name按空格键
+input keyevent KEYCODE_HOME
+#点击坐标367  1277
+input tap 367 1277
+#从（1024，945）滑动到（134，968）200毫秒内
+input swipe 1024 945 134 968 200
